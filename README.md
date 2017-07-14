@@ -1,21 +1,8 @@
-<img src=https://raw.githubusercontent.com/amitshekhariitbhu/RxJava2-Android-Samples/master/assets/rxjava2.png >
+<img src=assets/Rx_Logo_S.png >
 
-# Learning RxJava 2 for Android by example
+# RxJava 2 for Android 
 
-[![Mindorks](https://img.shields.io/badge/mindorks-opensource-blue.svg)](https://mindorks.com/open-source-projects)
-[![Mindorks Community](https://img.shields.io/badge/join-community-blue.svg)](https://mindorks.com/join-community)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-RxJava2%20Android%20Samples-blue.svg?style=flat)](https://android-arsenal.com/details/3/4314)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://opensource.org/licenses/Apache-2.0)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/amitshekhariitbhu/RxJava2-Android-Samples/blob/master/LICENSE)
-
-## How to use RxJava 2 in Android Application
-## How to migrate from RxJava 1.0 to RxJava 2.0
-
-### This project is for : 
-* who is migrating to RxJava 2 
-* or just started with RxJava.
-
-### Just Build the project and start learning RxJava by examples.
+### Built to learn RxJava2
 
 RxJava 2.0 has been completely rewritten from scratch on top of the Reactive-Streams specification. The specification itself has evolved out of RxJava 1.x and provides a common baseline for reactive systems and libraries.
 
@@ -104,49 +91,3 @@ RxJava1 -> RxJava2
 * [PaginationActivity](https://github.com/amitshekhariitbhu/RxJava2-Android-Samples/blob/master/app/src/main/java/com/rxjava2/android/samples/ui/pagination/PaginationActivity.java) - Pagination for loadMore in RecyclerView
 * [ComposeOperatorExampleActivity](https://github.com/amitshekhariitbhu/RxJava2-Android-Samples/blob/master/app/src/main/java/com/rxjava2/android/samples/ui/compose/ComposeOperatorExampleActivity.java) - Compose operator for reusable
 
-### TODO 
-
-* Many examples are to be added 
-
-### Find this project useful ? :heart:
-* Support it by clicking the :star: button on the upper right of this page. :v:
-
-### Check out an awesome MVP architecture based project which uses RxJava2, Dagger2.
-* [Android-MVP-Architecture](https://github.com/MindorksOpenSource/android-mvp-architecture)
-
-### Check out an awesome library for fast and simple networking in Android.
-* [Fast Android Networking Library](https://github.com/amitshekhariitbhu/Fast-Android-Networking)
-
-### Another awesome library for debugging databases and shared preferences.
-* [Android Debug Database](https://github.com/amitshekhariitbhu/Android-Debug-Database)
-
-### [Check out Mindorks awesome open source projects here](https://mindorks.com/open-source-projects)
-
-### Contact - Let's become friend
-- [Twitter](https://twitter.com/amitiitbhu)
-- [Github](https://github.com/amitshekhariitbhu)
-- [Medium](https://medium.com/@amitshekhar)
-- [Facebook](https://www.facebook.com/amit.shekhar.iitbhu)
-
-### License
-```
-   Copyright (C) 2016 Amit Shekhar
-   Copyright (C) 2011 Android Open Source Project
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
-```
-
-### Contributing to RxJava 2 Android Samples
-Just make pull request. You are in!
-
- 
