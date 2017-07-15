@@ -10,6 +10,8 @@ From RxJava2 Android Studio "File/New Module/Import Gradle Project"
 
 Only select modules "android-networking" and "rx2-android-networking"
 
+Add both modules to app module dependency
+
 Note: original fork had network bug in gradle.properties
 
 ### Built to learn RxJava2
