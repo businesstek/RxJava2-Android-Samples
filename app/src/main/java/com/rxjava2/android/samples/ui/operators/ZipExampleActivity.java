@@ -49,16 +49,16 @@ public class ZipExampleActivity extends AppCompatActivity {
 
     /*
     * Here we are getting two user list
-    * One, the list of cricket fans
+    * One, the list of baseball fans
     * Another one, the list of football fans
     * Then we are finding the list of users who loves both
     */
     private void doSomeWork() {
-        Observable.zip(getCricketFansObservable(), getFootballFansObservable(),
+        Observable.zip(getBaseballFansObservable(), getFootballFansObservable(),
                 new BiFunction<List<User>, List<User>, List<User>>() {
                     @Override
-                    public List<User> apply(List<User> cricketFans, List<User> footballFans) throws Exception {
-                        return Utils.filterUserWhoLovesBoth(cricketFans, footballFans);
+                    public List<User> apply(List<User> baseballFans, List<User> footballFans) throws Exception {
+                        return Utils.filterUserWhoLovesBoth(baseballFans, footballFans);
                     }
                 })
                 // Run on a background thread
@@ -68,12 +68,12 @@ public class ZipExampleActivity extends AppCompatActivity {
                 .subscribe(getObserver());
     }
 
-    private Observable<List<User>> getCricketFansObservable() {
+    private Observable<List<User>> getBaseballFansObservable() {
         return Observable.create(new ObservableOnSubscribe<List<User>>() {
             @Override
             public void subscribe(ObservableEmitter<List<User>> e) throws Exception {
                 if (!e.isDisposed()) {
-                    e.onNext(Utils.getUserListWhoLovesCricket());
+                    e.onNext(Utils.getUserListWhoLovesBaseball());
                     e.onComplete();
                 }
             }

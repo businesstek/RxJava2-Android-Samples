@@ -44,7 +44,7 @@ public class NetworkingActivity extends AppCompatActivity {
      * Map Operator Example
      */
     public void map(View view) {
-        Rx2AndroidNetworking.get("https://fierce-cove-29863.herokuapp.com/getAnUser/{userId}")
+        Rx2AndroidNetworking.get("https://secret-ridge-27839.herokuapp.com/getAnUser/{userId}")
                 .addPathParameter("userId", "1")
                 .build()
                 .getObjectObservable(ApiUser.class)
@@ -88,10 +88,10 @@ public class NetworkingActivity extends AppCompatActivity {
      */
 
     /**
-     * This observable return the list of User who loves cricket
+     * This observable return the list of User who loves baseball
      */
-    private Observable<List<User>> getCricketFansObservable() {
-        return Rx2AndroidNetworking.get("https://fierce-cove-29863.herokuapp.com/getAllCricketFans")
+    private Observable<List<User>> getBaseballFansObservable() {
+        return Rx2AndroidNetworking.get("https://secret-ridge-27839.herokuapp.com/getAllBaseballFans")
                 .build()
                 .getObjectListObservable(User.class);
     }
@@ -100,7 +100,7 @@ public class NetworkingActivity extends AppCompatActivity {
     * This observable return the list of User who loves Football
     */
     private Observable<List<User>> getFootballFansObservable() {
-        return Rx2AndroidNetworking.get("https://fierce-cove-29863.herokuapp.com/getAllFootballFans")
+        return Rx2AndroidNetworking.get("https://secret-ridge-27839.herokuapp.com/getAllFootballFans")
                 .build()
                 .getObjectListObservable(User.class);
     }
@@ -112,12 +112,12 @@ public class NetworkingActivity extends AppCompatActivity {
     */
     private void findUsersWhoLovesBoth() {
         // here we are using zip operator to combine both request
-        Observable.zip(getCricketFansObservable(), getFootballFansObservable(),
+        Observable.zip(getBaseballFansObservable(), getFootballFansObservable(),
                 new BiFunction<List<User>, List<User>, List<User>>() {
                     @Override
-                    public List<User> apply(List<User> cricketFans, List<User> footballFans) throws Exception {
+                    public List<User> apply(List<User> baseballFans, List<User> footballFans) throws Exception {
                         List<User> userWhoLovesBoth =
-                                filterUserWhoLovesBoth(cricketFans, footballFans);
+                                filterUserWhoLovesBoth(baseballFans, footballFans);
                         return userWhoLovesBoth;
                     }
                 })
@@ -150,12 +150,12 @@ public class NetworkingActivity extends AppCompatActivity {
                 });
     }
 
-    private List<User> filterUserWhoLovesBoth(List<User> cricketFans, List<User> footballFans) {
+    private List<User> filterUserWhoLovesBoth(List<User> baseballFans, List<User> footballFans) {
         List<User> userWhoLovesBoth = new ArrayList<>();
-        for (User cricketFan : cricketFans) {
+        for (User baseballFan : baseballFans) {
             for (User footballFan : footballFans) {
-                if (cricketFan.id == footballFan.id) {
-                    userWhoLovesBoth.add(cricketFan);
+                if (baseballFan.id == footballFan.id) {
+                    userWhoLovesBoth.add(baseballFan);
                 }
             }
         }
@@ -173,7 +173,7 @@ public class NetworkingActivity extends AppCompatActivity {
      */
 
     private Observable<List<User>> getAllMyFriendsObservable() {
-        return Rx2AndroidNetworking.get("https://fierce-cove-29863.herokuapp.com/getAllFriends/{userId}")
+        return Rx2AndroidNetworking.get("https://secret-ridge-27839.herokuapp.com/getAllFriends/{userId}")
                 .addPathParameter("userId", "1")
                 .build()
                 .getObjectListObservable(User.class);
@@ -313,7 +313,7 @@ public class NetworkingActivity extends AppCompatActivity {
      */
 
     private Observable<List<User>> getUserListObservable() {
-        return Rx2AndroidNetworking.get("https://fierce-cove-29863.herokuapp.com/getAllUsers/{pageNumber}")
+        return Rx2AndroidNetworking.get("https://secret-ridge-27839.herokuapp.com/getAllUsers/{pageNumber}")
                 .addPathParameter("pageNumber", "0")
                 .addQueryParameter("limit", "10")
                 .build()
@@ -321,7 +321,7 @@ public class NetworkingActivity extends AppCompatActivity {
     }
 
     private Observable<UserDetail> getUserDetailObservable(long id) {
-        return Rx2AndroidNetworking.get("https://fierce-cove-29863.herokuapp.com/getAnUserDetail/{userId}")
+        return Rx2AndroidNetworking.get("https://secret-ridge-27839.herokuapp.com/getAnUserDetail/{userId}")
                 .addPathParameter("userId", String.valueOf(id))
                 .build()
                 .getObjectObservable(UserDetail.class);

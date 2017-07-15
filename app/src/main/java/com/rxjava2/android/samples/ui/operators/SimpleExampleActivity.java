@@ -53,7 +53,7 @@ public class SimpleExampleActivity extends AppCompatActivity {
     }
 
     private Observable<String> getObservable() {
-        return Observable.just("Cricket", "Football");
+        return Observable.just("Baseball", "Football");
     }
 
     private Observer<String> getObserver() {

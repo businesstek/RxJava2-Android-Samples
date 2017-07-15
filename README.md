@@ -2,17 +2,14 @@
 
 # RxJava 2 for Android 
 ### How to
-Clone repo
+* Clone repo
+* Clone https://github.com/businesstek/Fast-Android-Networking
+* From RxJava2 Android Studio "File/New Module/Import Gradle Project"
+* Only select modules "android-networking" and "rx2-android-networking"
+* Add both modules to app module dependency
+* Note: original fork had network bug in gradle.properties
+* Replace 6 calls in NetworkingActivity with your own node herokuapp to handle the REST calls
 
-Clone https://github.com/businesstek/Fast-Android-Networking
-
-From RxJava2 Android Studio "File/New Module/Import Gradle Project"
-
-Only select modules "android-networking" and "rx2-android-networking"
-
-Add both modules to app module dependency
-
-Note: original fork had network bug in gradle.properties
 
 ### Built to learn RxJava2
 
