@@ -1,6 +1,16 @@
 <img src=assets/Rx_Logo_S.png >
 
 # RxJava 2 for Android 
+### How to
+Clone repo
+
+Clone https://github.com/businesstek/Fast-Android-Networking
+
+From RxJava2 Android Studio "File/New Module/Import Gradle Project"
+
+Only select modules "android-networking" and "rx2-android-networking"
+
+Note: original fork had network bug in gradle.properties
 
 ### Built to learn RxJava2
 
