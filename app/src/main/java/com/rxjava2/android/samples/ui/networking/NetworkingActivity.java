@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.util.Pair;
 import android.view.View;
+import android.widget.Toast;
 
 import com.rx2androidnetworking.Rx2AndroidNetworking;
 import com.rxjava2.android.samples.R;
@@ -34,6 +35,7 @@ public class NetworkingActivity extends AppCompatActivity {
 
     public static final String TAG = NetworkingActivity.class.getSimpleName();
 
+    String str = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,7 +47,7 @@ public class NetworkingActivity extends AppCompatActivity {
      */
     public void map(View view) {
         Rx2AndroidNetworking.get("https://secret-ridge-27839.herokuapp.com/getAnUser/{userId}")
-                .addPathParameter("userId", "1")
+                .addPathParameter("userId", "12")
                 .build()
                 .getObjectObservable(ApiUser.class)
                 .subscribeOn(Schedulers.io())
@@ -67,6 +69,7 @@ public class NetworkingActivity extends AppCompatActivity {
 
                     @Override
                     public void onNext(User user) {
+                        str = user.toString();
                         Log.d(TAG, "user : " + user.toString());
                     }
 
@@ -77,6 +80,8 @@ public class NetworkingActivity extends AppCompatActivity {
 
                     @Override
                     public void onComplete() {
+                        Toast.makeText(getApplicationContext(), str, Toast.LENGTH_LONG).show();
+
                         Log.d(TAG, "onComplete");
                     }
                 });

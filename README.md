@@ -8,7 +8,9 @@
 * Only select modules "android-networking" and "rx2-android-networking"
 * Add both modules to app module dependency
 * Note: original fork had network bug in gradle.properties
-* Replace 6 calls in NetworkingActivity with your own node herokuapp to handle the REST calls
+* Note: ApiUser and UserDetail models are the same. Why?
+* Note: added toast for feedback for networking
+* Replace 6 calls in NetworkingActivity with your own node herokuapp to handle the REST calls.  Sample index.js is included in assets folder
 
 
 ### Built to learn RxJava2
