@@ -36,7 +36,7 @@ import java.util.List;
 import io.reactivex.Observable;
 
 /**
- * Created by Prashant Gupta on 30-01-2017.
+ * Created by owner on 30-01-2017.
  */
 @SuppressWarnings({"unchecked", "unused"})
 public class Rx2ANRequest extends ANRequest<Rx2ANRequest> {

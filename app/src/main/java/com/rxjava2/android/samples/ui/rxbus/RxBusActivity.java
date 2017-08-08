@@ -16,7 +16,7 @@ import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * Created by amitshekhar on 06/02/17.
+ * Created by owner on 06/02/17.
  */
 
 public class RxBusActivity extends AppCompatActivity {

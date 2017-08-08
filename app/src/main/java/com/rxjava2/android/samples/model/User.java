@@ -1,7 +1,7 @@
 package com.rxjava2.android.samples.model;
 
 /**
- * Created by amitshekhar on 27/08/16.
+ * Created by owner on 27/08/16.
  */
 public class User {
     public long id;

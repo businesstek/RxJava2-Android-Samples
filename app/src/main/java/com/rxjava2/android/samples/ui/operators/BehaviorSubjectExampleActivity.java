@@ -15,7 +15,7 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.subjects.BehaviorSubject;
 
 /**
- * Created by amitshekhar on 17/12/16.
+ * Created by owner on 17/12/16.
  */
 
 public class BehaviorSubjectExampleActivity extends AppCompatActivity {

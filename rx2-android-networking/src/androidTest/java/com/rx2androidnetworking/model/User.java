@@ -20,7 +20,7 @@
 package com.rx2androidnetworking.model;
 
 /**
- * Created by amitshekhar on 26/04/17.
+ * Created by owner on 26/04/17.
  */
 
 public class User {

@@ -17,7 +17,7 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * Created by amitshekhar on 27/08/16.
+ * Created by owner on 27/08/16.
  */
 public class SkipExampleActivity extends AppCompatActivity {
 

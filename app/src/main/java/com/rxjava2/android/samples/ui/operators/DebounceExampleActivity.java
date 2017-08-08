@@ -21,7 +21,7 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * Created by amitshekhar on 22/12/16.
+ * Created by owner on 22/12/16.
  */
 
 public class DebounceExampleActivity extends AppCompatActivity {

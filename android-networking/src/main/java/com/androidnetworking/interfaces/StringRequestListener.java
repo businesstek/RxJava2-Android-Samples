@@ -20,7 +20,7 @@ package com.androidnetworking.interfaces;
 import com.androidnetworking.error.ANError;
 
 /**
- * Created by amitshekhar on 23/05/16.
+ * Created by owner on 23/05/16.
  */
 public interface StringRequestListener {
 

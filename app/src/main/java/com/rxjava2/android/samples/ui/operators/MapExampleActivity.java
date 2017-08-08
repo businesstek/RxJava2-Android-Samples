@@ -25,7 +25,7 @@ import io.reactivex.functions.Function;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * Created by amitshekhar on 27/08/16.
+ * Created by owner on 27/08/16.
  */
 public class MapExampleActivity extends AppCompatActivity {
 

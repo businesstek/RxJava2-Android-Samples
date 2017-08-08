@@ -21,7 +21,7 @@ import io.reactivex.observers.DisposableObserver;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * Created by amitshekhar on 27/08/16.
+ * Created by owner on 27/08/16.
  */
 public class DisposableExampleActivity extends AppCompatActivity {
 

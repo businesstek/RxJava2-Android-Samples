@@ -70,7 +70,7 @@ import okhttp3.Response;
 import okio.Okio;
 
 /**
- * Created by amitshekhar on 26/03/16.
+ * Created by owner on 26/03/16.
  */
 @SuppressWarnings({"unchecked", "unused"})
 public class ANRequest<T extends ANRequest> {

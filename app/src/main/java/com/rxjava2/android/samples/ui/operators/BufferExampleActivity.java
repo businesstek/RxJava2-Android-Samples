@@ -17,7 +17,7 @@ import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
 
 /**
- * Created by amitshekhar on 27/08/16.
+ * Created by owner on 27/08/16.
  */
 public class BufferExampleActivity extends AppCompatActivity {
 

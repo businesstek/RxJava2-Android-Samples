@@ -55,7 +55,7 @@ import static com.androidnetworking.common.Method.POST;
 import static com.androidnetworking.common.Method.PUT;
 
 /**
- * Created by Prashant Gupta on 30-01-2017.
+ * Created by owner on 30-01-2017.
  */
 @SuppressWarnings("unchecked")
 public class Rx2InternalNetworking {

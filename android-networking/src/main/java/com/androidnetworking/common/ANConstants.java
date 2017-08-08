@@ -18,7 +18,7 @@
 package com.androidnetworking.common;
 
 /**
- * Created by amitshekhar on 29/03/16.
+ * Created by owner on 29/03/16.
  */
 public final class ANConstants {
     public static final int MAX_CACHE_SIZE = 10 * 1024 * 1024;

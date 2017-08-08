@@ -27,7 +27,7 @@ import com.androidnetworking.error.ANError;
 import com.androidnetworking.internal.ANImageLoader;
 
 /**
- * Created by amitshekhar on 23/03/16.
+ * Created by owner on 23/03/16.
  */
 public class ANImageView extends ImageView {
 

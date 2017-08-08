@@ -18,7 +18,7 @@
 package com.androidnetworking.common;
 
 /**
- * Created by amitshekhar on 26/03/16.
+ * Created by owner on 26/03/16.
  */
 public enum ResponseType {
     STRING,

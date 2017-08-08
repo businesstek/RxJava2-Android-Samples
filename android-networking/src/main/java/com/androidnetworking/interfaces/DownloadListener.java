@@ -20,7 +20,7 @@ package com.androidnetworking.interfaces;
 import com.androidnetworking.error.ANError;
 
 /**
- * Created by amitshekhar on 29/04/16.
+ * Created by owner on 29/04/16.
  */
 public interface DownloadListener {
 

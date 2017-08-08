@@ -42,7 +42,7 @@ import okhttp3.mockwebserver.MockWebServer;
 import static java.util.concurrent.TimeUnit.SECONDS;
 
 /**
- * Created by amitshekhar on 28/04/17.
+ * Created by owner on 28/04/17.
  */
 
 public class Rx2PostObjectApiTest extends ApplicationTestCase<Application> {

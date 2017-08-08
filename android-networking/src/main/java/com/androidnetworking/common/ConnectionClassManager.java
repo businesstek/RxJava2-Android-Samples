@@ -21,7 +21,7 @@ import com.androidnetworking.core.Core;
 import com.androidnetworking.interfaces.ConnectionQualityChangeListener;
 
 /**
- * Created by amitshekhar on 29/05/16.
+ * Created by owner on 29/05/16.
  */
 public class ConnectionClassManager {
 

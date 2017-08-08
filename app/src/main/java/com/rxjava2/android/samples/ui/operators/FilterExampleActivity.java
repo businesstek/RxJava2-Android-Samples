@@ -17,7 +17,7 @@ import io.reactivex.functions.Predicate;
 
 
 /**
- * Created by amitshekhar on 27/08/16.
+ * Created by owner on 27/08/16.
  */
 public class FilterExampleActivity extends AppCompatActivity {
 

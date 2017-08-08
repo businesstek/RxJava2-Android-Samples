@@ -28,7 +28,7 @@ import io.reactivex.functions.Predicate;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * Created by amitshekhar on 04/02/17.
+ * Created by owner on 04/02/17.
  */
 
 public class NetworkingActivity extends AppCompatActivity {

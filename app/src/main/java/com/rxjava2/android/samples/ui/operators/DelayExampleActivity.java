@@ -19,7 +19,7 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * Created by amitshekhar on 05/03/17.
+ * Created by owner on 05/03/17.
  */
 
 public class DelayExampleActivity extends AppCompatActivity {

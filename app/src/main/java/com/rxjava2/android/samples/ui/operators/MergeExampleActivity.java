@@ -15,7 +15,7 @@ import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
 
 /**
- * Created by amitshekhar on 28/08/16.
+ * Created by owner on 28/08/16.
  */
 public class MergeExampleActivity extends AppCompatActivity {
 

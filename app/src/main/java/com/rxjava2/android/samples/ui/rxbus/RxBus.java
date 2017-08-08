@@ -4,7 +4,7 @@ import io.reactivex.Observable;
 import io.reactivex.subjects.PublishSubject;
 
 /**
- * Created by amitshekhar on 06/02/17.
+ * Created by owner on 06/02/17.
  */
 
 public class RxBus {
